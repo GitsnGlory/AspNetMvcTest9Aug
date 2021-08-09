@@ -1,0 +1,107 @@
+2021-08-09 10:49:59.053 +05:30 [INF] Loaded 5 extensions
+2021-08-09 10:50:02.860 +05:30 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-09 10:50:04.575 +05:30 [INF] Found Visual Studio v15.9.28307.1500 [C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools]
+2021-08-09 10:50:04.626 +05:30 [INF] Found Visual Studio v16.9.31409.214 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional]
+2021-08-09 10:50:13.419 +05:30 [INF] Initializing upgrade step Select an entrypoint
+2021-08-09 10:50:13.427 +05:30 [INF] Setting entrypoint to only project in solution: C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\AspNetMvcTest9Aug.csproj
+2021-08-09 10:50:13.441 +05:30 [INF] Initializing upgrade step Select project to upgrade
+2021-08-09 10:50:13.483 +05:30 [INF] Initializing upgrade step Back up project
+2021-08-09 10:50:23.238 +05:30 [INF] Applying upgrade step Back up project
+2021-08-09 10:50:27.914 +05:30 [INF] Backing up C:\Users\nevairag\source\repos\AspNetMvcTest9Aug to C:\Users\nevairag\source\repos\AspNetMvcTest9Aug.backup
+2021-08-09 10:50:28.004 +05:30 [WRN] Could not copy file C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\log.txt due to 'The process cannot access the file 'C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\log.txt' because it is being used by another process.'
+2021-08-09 10:50:47.940 +05:30 [INF] Project backed up to C:\Users\nevairag\source\repos\AspNetMvcTest9Aug.backup
+2021-08-09 10:50:47.949 +05:30 [INF] Upgrade step Back up project applied successfully
+2021-08-09 10:50:50.905 +05:30 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-09 10:50:53.761 +05:30 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-09 10:50:53.768 +05:30 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-09 10:50:54.668 +05:30 [INF] [dotnet] C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\AspNetMvcTest9Aug.csproj contains a reference to System.Web, which is not supported on .NET Core. You may have significant work ahead of you to fully port this project.
+2021-08-09 10:50:54.671 +05:30 [INF] [dotnet] 'C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\AspNetMvcTest9Aug.csproj' is a legacy web project and/or references System.Web. Legacy Web projects and System.Web are unsupported on .NET Core. You will need to rewrite your application or find a way to not depend on System.Web to convert this project.
+2021-08-09 10:51:01.790 +05:30 [INF] [dotnet] Conversion complete!
+2021-08-09 10:51:04.209 +05:30 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-09 10:51:08.359 +05:30 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-09 10:51:11.771 +05:30 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-09 10:51:14.972 +05:30 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-08-09 10:51:14.998 +05:30 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-08-09 10:51:18.666 +05:30 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-09 10:51:18.701 +05:30 [INF] References to be removed: Operation { Item = System.Configuration, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-09 10:51:18.707 +05:30 [INF] Packages to be added: Operation { Item = System.Configuration.ConfigurationManager, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-09 10:51:28.809 +05:30 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-09 10:51:28.822 +05:30 [INF] Removing outdated assembly reference: System.Configuration
+2021-08-09 10:51:28.831 +05:30 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-08-09 10:51:28.836 +05:30 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901
+2021-08-09 10:51:33.005 +05:30 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-09 10:51:40.207 +05:30 [INF] Initializing upgrade step Update TFM
+2021-08-09 10:51:40.225 +05:30 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-09 10:51:40.232 +05:30 [INF] TFM needs updated to net5.0
+2021-08-09 10:51:50.701 +05:30 [INF] Applying upgrade step Update TFM
+2021-08-09 10:51:50.709 +05:30 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-09 10:51:59.220 +05:30 [INF] Updated TFM to net5.0
+2021-08-09 10:51:59.223 +05:30 [INF] Upgrade step Update TFM applied successfully
+2021-08-09 10:52:05.078 +05:30 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-09 10:52:08.827 +05:30 [INF] Marking package Antlr for removal based on package mapping configuration Antlr
+2021-08-09 10:52:08.831 +05:30 [INF] Adding package Antlr4 based on package mapping configuration Antlr
+2021-08-09 10:52:08.833 +05:30 [INF] Marking package WebGrease for removal based on package mapping configuration WebGrease
+2021-08-09 10:52:10.142 +05:30 [INF] Reference to Newtonsoft package (Microsoft.AspNetCore.Mvc.NewtonsoftJson, version 5.0.8) needs added
+2021-08-09 10:52:10.156 +05:30 [INF] Packages to be removed: Operation { Item = Antlr, Version=3.5.0.2, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = WebGrease, Version=1.6.0, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-09 10:52:10.162 +05:30 [INF] Packages to be added: Operation { Item = Antlr4, Version=4.6.6, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.8, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-09 10:52:22.055 +05:30 [INF] Applying upgrade step Update NuGet Packages
+2021-08-09 10:52:22.059 +05:30 [INF] Removing outdated package reference: Antlr, Version=3.5.0.2
+2021-08-09 10:52:22.063 +05:30 [INF] Removing outdated package reference: WebGrease, Version=1.6.0
+2021-08-09 10:52:22.066 +05:30 [INF] Adding package reference: Antlr4, Version=4.6.6
+2021-08-09 10:52:22.069 +05:30 [INF] Adding package reference: Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.8
+2021-08-09 10:52:29.876 +05:30 [INF] Marking package Microsoft.CSharp for removal because it appears to be a transitive dependency
+2021-08-09 10:52:29.920 +05:30 [INF] Marking package Newtonsoft.Json for removal because it appears to be a transitive dependency
+2021-08-09 10:52:30.024 +05:30 [INF] Removing outdated package reference: Microsoft.CSharp, Version=4.7.0
+2021-08-09 10:52:30.032 +05:30 [INF] Removing outdated package reference: Newtonsoft.Json, Version=12.0.2
+2021-08-09 10:52:35.549 +05:30 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-09 10:52:42.096 +05:30 [INF] Initializing upgrade step Add template files
+2021-08-09 10:52:42.165 +05:30 [INF] 4 expected template items needed
+2021-08-09 10:52:52.177 +05:30 [INF] Applying upgrade step Add template files
+2021-08-09 10:52:52.239 +05:30 [INF] Added template file Program.cs
+2021-08-09 10:52:52.270 +05:30 [INF] Added template file Startup.cs
+2021-08-09 10:52:52.298 +05:30 [INF] Added template file appsettings.json
+2021-08-09 10:52:52.324 +05:30 [INF] Added template file appsettings.Development.json
+2021-08-09 10:52:54.633 +05:30 [INF] 4 template items added
+2021-08-09 10:52:54.651 +05:30 [INF] Upgrade step Add template files applied successfully
+2021-08-09 10:52:59.059 +05:30 [INF] Initializing upgrade step Upgrade app config files
+2021-08-09 10:52:59.442 +05:30 [INF] Found 4 app settings for upgrade: webpages:Version, webpages:Enabled, ClientValidationEnabled, UnobtrusiveJavaScriptEnabled
+2021-08-09 10:52:59.454 +05:30 [INF] Found 0 connection strings for upgrade: 
+2021-08-09 10:52:59.465 +05:30 [INF] 1 web page namespace imports need upgraded: AspNetMvcTest9Aug
+2021-08-09 10:53:06.823 +05:30 [INF] Applying upgrade step Convert Application Settings
+2021-08-09 10:53:06.854 +05:30 [INF] Upgrade step Convert Application Settings applied successfully
+2021-08-09 10:53:17.474 +05:30 [INF] Applying upgrade step Convert system.web.webPages.razor/pages/namespaces
+2021-08-09 10:53:17.484 +05:30 [INF] View imports written to C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Views\_ViewImports.cshtml
+2021-08-09 10:53:17.487 +05:30 [INF] Upgrade step Convert system.web.webPages.razor/pages/namespaces applied successfully
+2021-08-09 10:53:17.489 +05:30 [INF] Applying upgrade step Upgrade app config files
+2021-08-09 10:53:17.492 +05:30 [INF] Upgrade step Upgrade app config files applied successfully
+2021-08-09 10:53:25.174 +05:30 [INF] Initializing upgrade step Update Razor files
+2021-08-09 10:53:28.809 +05:30 [INF] Identified 0 diagnostics in Razor files in project AspNetMvcTest9Aug
+2021-08-09 10:53:28.820 +05:30 [INF] Found @helper functions in 0 documents
+2021-08-09 10:53:28.823 +05:30 [INF] Initializing upgrade step Update source code
+2021-08-09 10:53:42.638 +05:30 [INF] Applying upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces
+2021-08-09 10:53:43.119 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\BundleConfig.cs
+2021-08-09 10:53:43.173 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\FilterConfig.cs
+2021-08-09 10:53:43.187 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\RouteConfig.cs
+2021-08-09 10:53:43.202 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Controllers\HomeController.cs
+2021-08-09 10:53:43.215 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Global.asax.cs
+2021-08-09 10:53:43.388 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\BundleConfig.cs
+2021-08-09 10:53:43.398 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\FilterConfig.cs
+2021-08-09 10:53:43.408 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\RouteConfig.cs
+2021-08-09 10:53:43.422 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Controllers\HomeController.cs
+2021-08-09 10:53:43.433 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Global.asax.cs
+2021-08-09 10:53:43.535 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\RouteConfig.cs
+2021-08-09 10:53:43.543 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Global.asax.cs
+2021-08-09 10:53:43.637 +05:30 [INF] Diagnostic UA0001 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Global.asax.cs
+2021-08-09 10:53:43.712 +05:30 [INF] Upgrade step Apply fix for UA0001: ASP.NET Core projects should not reference ASP.NET namespaces applied successfully
+2021-08-09 10:53:52.826 +05:30 [INF] Applying upgrade step Apply fix for UA0002: Types should be upgraded
+2021-08-09 10:53:53.542 +05:30 [INF] Diagnostic UA0002 fixed in C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\Controllers\HomeController.cs
+2021-08-09 10:53:53.643 +05:30 [INF] Upgrade step Apply fix for UA0002: Types should be upgraded applied successfully
+2021-08-09 10:54:08.335 +05:30 [INF] Applying upgrade step Update source code
+2021-08-09 10:54:10.163 +05:30 [INF] Source updates complete with 1 diagnostics remaining which require manual updates
+2021-08-09 10:54:10.167 +05:30 [WRN] Manual updates needed to address: UA0013_C@SourceFile(C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\App_Start\BundleConfig.cs[214..230)): Script and style bundling works differently in ASP.NET Core. BundleCollection should be replaced by alternative bundling technologies. https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+2021-08-09 10:54:10.170 +05:30 [INF] Upgrade step Update source code applied successfully
+2021-08-09 10:54:16.971 +05:30 [INF] Initializing upgrade step Move to next project
+2021-08-09 11:53:24.950 +05:30 [INF] Saving upgrade progress file at C:\Users\nevairag\source\repos\AspNetMvcTest9Aug\.upgrade-assistant
