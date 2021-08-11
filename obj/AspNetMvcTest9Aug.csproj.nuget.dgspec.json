@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nevairag\\source\\repos\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj": {}
+    "C:\\Users\\nevairag\\source\\repos\\cloned\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nevairag\\source\\repos\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj": {
+    "C:\\Users\\nevairag\\source\\repos\\cloned\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nevairag\\source\\repos\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj",
+        "projectUniqueName": "C:\\Users\\nevairag\\source\\repos\\cloned\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj",
         "projectName": "AspNetMvcTest9Aug",
-        "projectPath": "C:\\Users\\nevairag\\source\\repos\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj",
+        "projectPath": "C:\\Users\\nevairag\\source\\repos\\cloned\\AspNetMvcTest9Aug\\AspNetMvcTest9Aug.csproj",
         "packagesPath": "C:\\Users\\nevairag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nevairag\\source\\repos\\AspNetMvcTest9Aug\\obj\\",
+        "outputPath": "C:\\Users\\nevairag\\source\\repos\\cloned\\AspNetMvcTest9Aug\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nevairag\\AppData\\Roaming\\NuGet\\NuGet.Config",
